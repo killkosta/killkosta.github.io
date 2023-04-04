@@ -1,0 +1,187 @@
+.title, .newsm {
+    white-space: nowrap;
+    
+}
+.title {
+    
+    text-align: center;
+    
+    font-size: 200%;
+    color: #49aa54;
+    margin-top: -70px;
+
+}
+.maintext {
+     font-size: 200%;
+     text-align: center;
+}
+.newsm {
+
+        text-align: center;
+        font-size: 200%;
+        color: #000000;
+}
+
+    
+
+.hr1 {
+    background-color: #f3f4a8;
+    height: 80px;
+    margin-left: -10%;
+    
+    width: 115vw;
+    
+    
+
+}
+
+.hr2 {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+    margin-left: -10%;
+    width: 115vw;
+    
+}
+
+#jacornews {
+    margin-top: -60px;
+    text-align: center;
+
+}
+.hr3 {
+    background-color: rgb(255, 215, 215);
+    height:60px;
+    margin-left: -10%;
+    width: 115vw;
+    
+}
+html {
+
+    scroll-behavior: smooth;
+
+  }
+  #newsscroll {
+    color: rgba(0, 38, 255,1.0);
+    transition: background-color 0.3s;
+  }
+  #newsscroll:hover {
+    cursor:pointer;
+  }
+  #newsscroll:active {
+    background-color: rgba(0, 255, 0, 0.4);
+    transition-delay: 0.3s;
+    transition: 0s;
+  }    
+
+
+/**/
+
+  #filesscroll {
+    color: rgba(163, 0, 238, 1.0);
+    transition: background-color 0.3s;
+  }
+  #filesscroll:hover {
+    cursor:pointer;
+  }
+  #filesscroll:active {
+    background-color: rgba(0, 255, 0, 0.4);
+    transition-delay: 0.3s;
+    transition: 0s;
+  }    
+
+  /**/
+
+
+
+  #novynkyscroll {
+    color: rgb(255, 115, 0);
+    transition: background-color 0.3s;
+  }
+  #novynkyscroll:hover {
+    cursor:pointer;
+  }
+  #novynkyscroll:active {
+    background-color: rgba(0, 255, 55, 0.4);
+    transition-delay: 0.3s;
+    transition: 0s;
+  }    
+
+
+  
+.news {
+    color: rgb(var(--txt,var(--color_15)));
+    display: inline-block;
+    padding: 0 10px;
+    transition: var(--trans,color .4s ease 0s);
+}
+
+ @media screen and (max-width: 337px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    .hr1,.hr3,.hr2 {
+        width: 520px;
+    }
+    
+}
+/*
+@media screen and (max-width: 998px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    /* .hr1,.hr3,.hr2 {
+        width: 998px;
+    } */
+    
+
+/* @media screen and (max-width: 768px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    .hr1,.hr3,.hr2 {
+        width: 768px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    .hr1,.hr3,.hr2 {
+        width: 576px;
+    }
+    
+}
+
+  */

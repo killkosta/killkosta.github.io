@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KillKost - головна</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+  </head>
+  <body>
+    
+
+    <hr class="hr1">
+    <p class="title">Це - Головна сторінка KillKost'а</p>
+    <br>
+    <br>
+    <p class="maintext">На цій сторінці Ви можете подивитися всі актуальні 
+      <a id="newsscroll">новини</a> мого каналу, завантажити 
+      <a id="filesscroll">файли</a>, вказані у моїх відео, подивитися <a id="novynkyscroll">новинки</a>
+      та просто відпочити.
+    </p>
+    <br><br><br><br><br><br><br><br><br><br>
+    <hr width="1493" class="hr2">
+    <br><br><br><br>
+    <hr class="hr3">
+    <p id ="jacornews" class="newsm"  >Тут будуть новини</p> 
+    <script>
+const scrollBtn = document.querySelector('#newsscroll');
+
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 320, // замените 1000 на необходимое количество пикселей или переменную с этим значением
+    behavior: 'smooth'
+  });
+});
+
+
+    </script>
+  </body>
+</html>
