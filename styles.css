@@ -32,7 +32,7 @@
   font-size: 200%;
   color: #000000;
 }
-#newsscroll {
+#newsscroll, #filesscroll, #novynkyscroll {
 
     
         -moz-user-select: none;
