@@ -1,0 +1,300 @@
+.title, .newsm {
+    white-space: nowrap;
+    
+}
+#buttonnews {
+  background-color: white;
+  border-color: white;
+  border-width: 0px;
+  color:#1900ff;
+  font-size: 100%;
+}
+#buttonnews:active {
+  color:red;
+}
+
+.title {
+    
+    text-align: center;
+    
+    font-size: 40px;
+    color: #49aa54;
+    margin-top: -70px;
+
+}
+.maintext {
+     font-size: 200%;
+     text-align: center;
+}
+
+.newsm {
+  text-align: center;
+  font-size: 200%;
+  color: #000000;
+}
+#newsscroll {
+
+    
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+}
+
+    
+
+.hr1 {
+    background-color: #f3f4a8;
+    height: 80px;
+    margin-left: -5%;
+    width: 104.2vw;
+    
+    
+
+}
+
+.hr2 {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: red; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+    margin-left: -5%;
+    width: 104.3vw;
+    
+}
+
+.hr3 {
+    background-color: rgb(255, 215, 215);
+    height:60px;
+    margin-left: -5%;
+    width: 104.2vw;
+    margin-top: -2%;
+    
+}
+html {
+
+    scroll-behavior: smooth;
+
+  }
+
+#jacornews {
+    margin-top: -60px;
+    text-align: center;
+}
+  #newsscroll {
+    color: rgba(0, 38, 255,1.0);
+    transition: background-color 0.3s;
+  }
+  #newsscroll:hover {
+    cursor:pointer;
+  }
+  #newsscroll:active {
+    color: rgba(255, 0, 0, 0.4);
+    transition-delay: 0.3s;
+    transition: 0s;
+  }    
+
+
+/**/
+
+  #filesscroll {
+    color: rgba(163, 0, 238, 1.0);
+    transition: background-color 0.3s;
+  }
+  #filesscroll:hover {
+    cursor:pointer;
+  }
+  #filesscroll:active {
+    color: rgba(255, 0, 0, 0.4);
+    transition-delay: 0.3s;
+    transition: 0s;
+  }    
+
+  /**/
+
+
+  #novynkyscroll {
+    color: rgb(255, 115, 0);
+    transition: background-color 0.3s;
+  }
+  #novynkyscroll:hover {
+    cursor:pointer;
+  }
+  #novynkyscroll:active {
+    color: rgba(0, 255, 55, 0.4);
+    transition-delay: 0.3s;
+    transition: 0s;
+  }    
+
+
+  
+.news {
+    color: rgb(var(--txt,var(--color_15)));
+    display: inline-block;
+    padding: 0 10px;
+    transition: var(--trans,color .4s ease 0s);
+}
+
+
+@media screen and (max-width: 590px) {
+    .title {
+    
+        text-align: center;
+        
+        font-size: 35px;
+        color: #49aa54;
+        margin-top: -70px;
+    
+    }
+
+}
+@media screen and (max-width: 543px) {
+    .title {
+    
+        text-align: center;
+        
+        font-size: 30px;
+        color: #49aa54;
+        margin-top: -70px;
+    
+    }
+
+}
+
+ @media screen and (max-width: 438px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+
+
+ 
+    
+}
+
+@media screen and (max-width: 409px) {
+  .title {
+  
+      text-align: center;
+      
+      font-size: 24px;
+      color: #49aa54;
+      margin-top: -70px;
+  
+  }
+
+}
+
+@media screen and (max-width: 354px) {
+  .title {
+  
+      text-align: center;
+      
+      font-size: 19px;
+      color: #49aa54;
+      margin-top: -70px;
+  
+  }
+
+  hr{
+    width:auto;
+  }
+
+}
+
+@media screen and (max-width: 288px) {
+  .title {
+  
+      text-align: center;
+      
+      font-size: 16px;
+      color: #49aa54;
+      margin-top: -70px;
+  
+  }
+
+}
+@media screen and (max-width: 247px) {
+  .title {
+  
+      
+      
+      font-size: 12px;
+      color: #49aa54;
+      margin-top: -70px;
+  
+  }
+
+}
+
+@media screen and (max-width: 107px) {
+    
+     .newsm {
+        font-size: 40vw;
+        }
+    .title {
+        font-size: 20vw;
+    }
+}
+/*
+@media screen and (max-width: 998px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    /* .hr1,.hr3,.hr2 {
+        width: 998px;
+    } */
+    
+
+/* @media screen and (max-width: 768px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    .hr1,.hr3,.hr2 {
+        width: 768px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+    .title, .newsm {
+        
+        
+        white-space: nowrap;
+        
+
+        
+    }
+
+    .hr1,.hr3,.hr2 {
+        width: 576px;
+    }
+    
+}
+
+  */
