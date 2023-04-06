@@ -32,28 +32,23 @@
   font-size: 200%;
   color: #000000;
 }
-.mobile-device #newsscroll, #filesscroll, #novynkyscroll {
-
-    
-        -moz-user-select: none;
-        -khtml-user-select: none;
-        -webkit-user-select: none;
-        user-select: none;
-}
-.mobile-device #filesscroll {
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
+@media (pointer: coarse) {
+  #filesscroll, #newsscroll, #novynkyscroll {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 }
 
-.mobile-device #novynkyscroll {
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
+@media (pointer: fine) {
+   #filesscroll, #newsscroll, #novynkyscroll {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+  }
 }
-    
 
 .hr1 {
     background-color: #f3f4a8;
